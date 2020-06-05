@@ -1,11 +1,20 @@
 {
   "name": "use-d3",
   "version": "0.1.0",
-  "description": "React hooks for D3.js data visualization library.\"",
+  "description": "React hooks for D3.js data visualization library.",
   "main": "index.js",
   "author": "Igor Soloydenko <soloydenko@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "tsc": "tsc"
+  },
   "devDependencies": {
+    "@types/d3": "^5.7.2",
+    "@types/react": "^16.9.35",
     "typescript": "^3.9.5"
+  },
+  "peerDependencies": {
+    "d3": "^5.16.0",
+    "react": "^16.13.1"
   }
 }
