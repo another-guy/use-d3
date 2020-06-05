@@ -1,0 +1,8 @@
+{
+  "name": "use-d3",
+  "version": "0.1.0",
+  "description": "React hooks for D3.js data visualization library.\"",
+  "main": "index.js",
+  "author": "Igor Soloydenko <soloydenko@gmail.com>",
+  "license": "MIT"
+}
