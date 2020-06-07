@@ -5,8 +5,7 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import React, { useRef } from 'react';
-import { SvgTag } from '../src/svg-tag';
-import { useSelectionWithoutData } from '../src/use-selection-without-data';
+import { SvgTag, useSelectionWithoutData } from '../src';
 
 describe(useSelectionWithoutData.name, () => {
   it('renders DOM correctly', () => {
