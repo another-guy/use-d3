@@ -37,4 +37,3 @@ export const TestComponent: React.FC<{ tag: SvgTag; content: string; }> = props 
     </div>
   );
 };
-
