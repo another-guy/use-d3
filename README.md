@@ -69,13 +69,7 @@ Rendered result DOM.
 
 Appearance of the rendered HTML.
 
-<svg viewBox="0 0 -100 100" width="350" height="100">
-  <rect class="data-point" x="0" y="15" width="10" height="10" fill="red" />
-  <rect class="data-point" x="0" y="30" width="40" height="10" fill="red" />
-  <rect class="data-point" x="0" y="45" width="90" height="10" fill="red" />
-  <rect class="data-point" x="0" y="60" width="160" height="10" fill="red" />
-  <rect class="data-point" x="0" y="75" width="250" height="10" fill="red" />
-</svg>
+![use-selection-with-data](docs/use-selection-with-data.png)
 
 ### `useSelectionWithoutData` hook
 
@@ -137,12 +131,4 @@ When the pattern is used in a `<rect>` tag like this
 
 the result rectangle appears shaded.
 
-<svg viewBox="0 0 -100 100" width="100" height="100">
-  <defs>
-    <pattern id="HashLine" width="3" height="3" patternUnits="userSpaceOnUse" patternTransform="rotate(37)">
-      <rect width="1.5" height="3" transform="translate(0,0)" fill="silver" />
-    </pattern>
-  </defs>
-
-  <rect x="0" y="0" width="100" height="100" fill="url(#HashLine)" />
-</svg>
+![use-selection-without-data](./docs/use-selection-without-data.png)
