@@ -4,6 +4,7 @@
   "description": "React hooks for D3.js data visualization library.",
   "author": "Igor Soloydenko <soloydenko@gmail.com>",
   "license": "MIT",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "tsc": "tsc"
